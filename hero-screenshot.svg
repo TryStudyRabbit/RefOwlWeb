@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background with border -->
+  <rect width="600" height="400" rx="8" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Extension Popup Header -->
+  <rect x="50" y="30" width="500" height="50" rx="4" fill="#3498db"/>
+  <text x="75" y="62" font-family="Arial" font-size="20" font-weight="bold" fill="#fff">RefOwl</text>
+  
+  <!-- Tabs -->
+  <rect x="200" y="45" width="150" height="25" rx="4" fill="#2980b9"/>
+  <text x="230" y="62" font-family="Arial" font-size="12" fill="#fff">Generate Citation</text>
+  
+  <rect x="360" y="45" width="120" height="25" rx="4" fill="#3498db"/>
+  <text x="380" y="62" font-family="Arial" font-size="12" fill="#fff">Saved Sources</text>
+  
+  <!-- Main section title -->
+  <text x="75" y="110" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">Generate Citation</text>
+  
+  <!-- Form fields -->
+  <rect x="75" y="130" width="450" height="220" rx="4" fill="#f9f9f9" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Citation Format -->
+  <text x="100" y="160" font-family="Arial" font-size="14" fill="#2c3e50">Citation Format:</text>
+  <rect x="100" y="170" width="400" height="30" rx="4" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="110" y="190" font-family="Arial" font-size="12" fill="#2c3e50">APA (7th Edition)</text>
+  
+  <!-- Source Type -->
+  <text x="100" y="220" font-family="Arial" font-size="14" fill="#2c3e50">Source Type:</text>
+  <rect x="100" y="230" width="400" height="30" rx="4" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="110" y="250" font-family="Arial" font-size="12" fill="#2c3e50">Web Page</text>
+  
+  <!-- Dynamic Fields -->
+  <text x="100" y="280" font-family="Arial" font-size="14" fill="#2c3e50">Title:</text>
+  <rect x="100" y="290" width="400" height="30" rx="4" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Buttons -->
+  <rect x="100" y="340" width="180" height="35" rx="4" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="130" y="363" font-family="Arial" font-size="12" fill="#2c3e50">Auto-fill from Page</text>
+  
+  <rect x="310" y="340" width="190" height="35" rx="4" fill="#3498db"/>
+  <text x="350" y="363" font-family="Arial" font-size="12" fill="#fff">Generate Citation</text>
+</svg>

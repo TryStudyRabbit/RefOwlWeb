@@ -1,0 +1,323 @@
+/* Page Styles for RefOwl */
+
+/* Page Header */
+.page-header {
+  background-color: var(--primary-color);
+  padding: 100px 0 40px;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.page-header h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Page Content */
+.page-content {
+  padding: 20px 0 80px;
+}
+
+.page-content h2 {
+  color: var(--secondary-color);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.page-content h3 {
+  color: var(--secondary-color);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.page-content p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.page-content ul, .page-content ol {
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+.page-content li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+/* 404 Page */
+.error-page {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.error-code {
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  opacity: 0.2;
+  margin-bottom: -40px;
+  position: relative;
+}
+
+.error-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.error-page .button {
+  margin-top: 20px;
+}
+
+/* Citation Guide */
+.citation-format {
+  background-color: var(--light-gray);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+}
+
+.citation-example {
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--primary-color);
+  margin-bottom: 20px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* Help Center */
+.help-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.help-category {
+  background-color: var(--light-gray);
+  padding: 25px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.help-category:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow);
+}
+
+.help-category i {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.help-category h3 {
+  margin-top: 0;
+}
+
+.help-search {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.help-search input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid var(--medium-gray);
+  border-radius: var(--border-radius);
+  font-size: 1.1rem;
+  transition: var(--transition);
+}
+
+.help-search input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.help-search button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.faq-accordion {
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border: 1px solid var(--medium-gray);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.faq-question {
+  padding: 15px 20px;
+  background-color: var(--light-gray);
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:after {
+  content: '+';
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.faq-question.active:after {
+  content: '-';
+}
+
+.faq-answer {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer.active {
+  padding: 20px;
+  max-height: 500px;
+}
+
+/* Release Notes */
+.release {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--medium-gray);
+}
+
+.release:last-child {
+  border-bottom: none;
+}
+
+.release-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.release-version {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.release-date {
+  color: var(--dark-gray);
+  font-style: italic;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.feature-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.feature-list li:before {
+  content: '✓';
+  color: var(--success-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bug-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bug-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.bug-list li:before {
+  content: '✓';
+  color: var(--success-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Privacy & Terms */
+.legal-content h2 {
+  border-bottom: 2px solid var(--medium-gray);
+  padding-bottom: 10px;
+}
+
+.last-updated {
+  font-style: italic;
+  color: var(--dark-gray);
+  margin-bottom: 30px;
+}
+
+.table-of-contents {
+  background-color: var(--light-gray);
+  padding: 20px 30px;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+}
+
+.table-of-contents h3 {
+  margin-top: 0;
+}
+
+.table-of-contents ol {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.table-of-contents li {
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+.table-of-contents li:before {
+  content: counter(item) ". ";
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 80px 0 30px;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .release-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .release-date {
+    margin-top: 5px;
+  }
+}

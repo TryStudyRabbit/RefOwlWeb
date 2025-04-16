@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#2980b9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)" />
+  
+  <!-- Abstract design elements -->
+  <circle cx="100" cy="100" r="200" fill="#fff" opacity="0.05" />
+  <circle cx="1100" cy="550" r="250" fill="#fff" opacity="0.05" />
+  
+  <!-- Paper lines elements -->
+  <g opacity="0.2">
+    <line x1="300" y1="150" x2="900" y2="150" stroke="#fff" stroke-width="3" />
+    <line x1="300" y1="200" x2="900" y2="200" stroke="#fff" stroke-width="3" />
+    <line x1="300" y1="250" x2="850" y2="250" stroke="#fff" stroke-width="3" />
+    <line x1="300" y1="300" x2="780" y2="300" stroke="#fff" stroke-width="3" />
+    <line x1="300" y1="350" x2="900" y2="350" stroke="#fff" stroke-width="3" />
+    <line x1="300" y1="400" x2="820" y2="400" stroke="#fff" stroke-width="3" />
+  </g>
+  
+  <!-- App Icon -->
+  <g transform="translate(150, 250)">
+    <rect width="128" height="128" rx="16" fill="#fff" />
+    <rect x="24" y="24" width="80" height="80" rx="6" fill="#3498db" opacity="0.2" />
+    <path d="M34 48h60M34 64h60M34 80h40" stroke="#3498db" stroke-width="4" stroke-linecap="round" />
+    <path d="M96 20H32a6 6 0 00-6 6v76a6 6 0 006 6h64a6 6 0 006-6V26a6 6 0 00-6-6z" stroke="#3498db" fill="none" stroke-width="3" />
+    <path d="M104 36l-8-8 8-8M24 92l8 8-8 8" stroke="#3498db" stroke-width="3" stroke-linecap="round" />
+    <circle cx="40" cy="30" r="3" fill="#3498db" />
+    <circle cx="50" cy="30" r="3" fill="#3498db" />
+    <circle cx="60" cy="30" r="3" fill="#3498db" />
+    <circle cx="88" cy="98" r="3" fill="#3498db" />
+    <circle cx="78" cy="98" r="3" fill="#3498db" />
+    <circle cx="68" cy="98" r="3" fill="#3498db" />
+  </g>
+  
+  <!-- Text Content -->
+  <text x="350" y="270" font-family="Arial" font-size="60" font-weight="bold" fill="#fff">RefOwl</text>
+  <text x="350" y="340" font-family="Arial" font-size="30" fill="#fff">Perfect Citations in Seconds</text>
+  
+  <!-- Badges -->
+  <g transform="translate(350, 380)">
+    <rect width="90" height="40" rx="20" fill="#fff" opacity="0.2" />
+    <text x="45" y="25" font-family="Arial" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">APA</text>
+  </g>
+  
+  <g transform="translate(460, 380)">
+    <rect width="90" height="40" rx="20" fill="#fff" opacity="0.2" />
+    <text x="45" y="25" font-family="Arial" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">MLA</text>
+  </g>
+  
+  <g transform="translate(570, 380)">
+    <rect width="120" height="40" rx="20" fill="#fff" opacity="0.2" />
+    <text x="60" y="25" font-family="Arial" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Chicago</text>
+  </g>
+  
+  <!-- CTA Text -->
+  <text x="350" y="470" font-family="Arial" font-size="24" fill="#fff">Get the free Chrome extension today!</text>
+</svg>
